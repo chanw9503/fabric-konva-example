@@ -17,7 +17,7 @@
 
 ## ⭐️ [Npm trends](https://npmtrends.com/fabric-vs-konva)
 
-![npm trends](image.png)
+![npm trends](./public/image.png)
 
 ---
 
@@ -106,4 +106,5 @@ _이 비교는 실제 프로젝트에서 각 도구를 활용하며 느낀 경�
 ---
 
 이 문서는 **Fabric.js v6.6.4**와 **Konva.js v9.3.20**을 기준으로 작성되었습니다.
+
 # fabric-konva-example

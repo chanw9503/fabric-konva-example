@@ -1,0 +1,29 @@
+import * as React from 'react';
+import { IconProps } from './types';
+
+export const ArrowIcon = React.forwardRef<SVGSVGElement, IconProps>(
+  ({ color = 'currentColor', ...props }, forwardedRef) => {
+    return (
+      <svg
+        ref={forwardedRef}
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+        fill={color}
+        {...props}>
+        <g id="Group">
+          <path
+            id="Vector"
+            d="M1.62656 15.2367C1.40156 15.2367 1.17656 15.1617 1.02656 14.9742C0.689062 14.6367 0.689062 14.1117 1.02656 13.7742L12.3891 2.41172H3.31406C2.86406 2.41172 2.48906 2.03672 2.48906 1.58672C2.48906 1.13672 2.86406 0.761719 3.31406 0.761719H14.3766C14.8266 0.761719 15.2016 1.13672 15.2016 1.58672V12.7242C15.2016 13.1742 14.8266 13.5492 14.3766 13.5492C13.9266 13.5492 13.5516 13.1742 13.5516 12.7242V3.68672L2.22656 15.0117C2.07656 15.1617 1.85156 15.2367 1.62656 15.2367Z"
+            fill="currentColor"
+          />
+        </g>
+      </svg>
+    );
+  }
+);
+
+ArrowIcon.displayName = 'ArrowIcon';
+
+export default ArrowIcon;
